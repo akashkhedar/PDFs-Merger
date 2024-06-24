@@ -10,7 +10,7 @@ const port = 8000;
 //set up multer for file uploads
 const upload = multer({dest : "uploads/" });
 
-//serve static frile from the "views" directory
+//serve static file from the "views" directory
 app.use(express.static(path.join(__dirname, "views")));
 
 //set the view engine to EJS
